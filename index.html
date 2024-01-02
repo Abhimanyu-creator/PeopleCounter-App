@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>People Counter App</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Genos:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main_content">
+        <h1 class="heading">People Counter</h1>
+        <div class="count-box">
+            <h2 id="count-el">0</h2>
+        </div>
+        <button class="btn-prop" id="btn-el" onclick="increment()">INCREMENT</button>
+        <button class="btn-prop" id="save-el" onclick="save()">SAVE</button>
+        <h2 class="past-entries" id="pastEntries-el">Past Entries:</h2>
+        <button class="reset-btn" onclick="reset()">↻</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
